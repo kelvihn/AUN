@@ -1,4 +1,5 @@
-import 'package:aun/screens/index.dart';
+import 'package:aun/screens/continuos_assessment.dart';
+import 'package:aun/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,6 @@ class Aun extends StatelessWidget {
           fontFamily: 'DMSans',
         ),
         initialRoute: '/',
-        routes: {'/': (context) => IndexScreen()});
+        routes: {'/': (context) => Assessment()});
   }
 }
